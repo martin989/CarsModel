@@ -26,7 +26,7 @@ class CreateUI:
         self.cb1.grid(row=1, column=1)
 
         #Create label and combobox for make
-        self.lbl2=tk.Label(window, text='Make')
+        self.lbl2=tk.Label(window, text='Make Of Car')
         self.lbl2.grid(row=2, column=0)
         self.cb2=Combobox(window, values=[x for x in self.dataset.brandlist])
         self.cb2.grid(row=2, column=1)

@@ -70,7 +70,7 @@ class CreateUI:
         #Train Button to train model
         self.lbl8=tk.Label(window, text='')
         self.lbl8.grid(row=15, column=1)
-        self.b2=tk.Button(window, text='Train', command=self.getTrain)
+        self.b2=tk.Button(window, text='Train Model', command=self.getTrain)
         self.b2.grid(row=14, column=0)
 
     def getResult(self): 

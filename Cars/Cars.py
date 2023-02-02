@@ -20,7 +20,7 @@ class CreateUI:
         self.lbl0.grid(row=0, column=1)
 
         #Create label and combobox for title status
-        self.lbl1=tk.Label(window, text='Title Status')
+        self.lbl1=tk.Label(window, text='Title Status Name')
         self.lbl1.grid(row=1, column=0)
         self.cb1=Combobox(window, values=[x for x in self.dataset.statuslist])
         self.cb1.grid(row=1, column=1)

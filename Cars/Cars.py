@@ -32,7 +32,7 @@ class CreateUI:
         self.cb2.grid(row=2, column=1)
 
         #Create label and combobox for model
-        self.lbl3=tk.Label(window, text='Model Select')
+        self.lbl3=tk.Label(window, text='Model Of Car Select')
         self.lbl3.grid(row=3, column=0)  
         self.cb3=Combobox(window, values=[x for x in self.dataset.modellist])
         self.cb3.grid(row=3, column=1)
